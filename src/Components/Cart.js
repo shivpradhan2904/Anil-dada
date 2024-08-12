@@ -1,9 +1,9 @@
-import React from "react";
+import React from 'react'
 import img2 from "../image/arrow.png";
-import { useNavigate } from "react-router-dom";
+import { useNavigate } from 'react-router-dom';
+function Cart() {
+    const navigate=useNavigate()
 
-function Shop() {
-  const navigate = useNavigate();
   return (
     <div>
       <div className="w-full min-h-10 bg-[#3AAFA9] text-center flex justify-between items-center">
@@ -23,7 +23,7 @@ function Shop() {
         </button>
       </div>
     </div>
-  );
+  )
 }
 
-export default Shop;
+export default Cart

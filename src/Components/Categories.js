@@ -12,7 +12,7 @@ function Categories() {
   return (
     <div className="my-5 ">
       <div className="pb-4">
-      <span className="text-blue-600 text-2xl ml-6  font-bold">
+      <span className="text-black text-2xl ml-6  font-bold">
         Categories
       </span>
       </div>

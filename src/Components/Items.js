@@ -13,7 +13,7 @@ function Items() {
   return (
     <div>
       <div className="py-3">
-      <span className="text-blue-600 text-2xl ml-4 pb-3 font-bold">
+      <span className="textbg-[#3AAFA9] text-2xl ml-4 pb-3 font-bold">
         Recommended
       </span>
       </div>

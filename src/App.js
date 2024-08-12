@@ -10,6 +10,12 @@ import Hire from './Components/Hire';
 import Education from './Components/Education';
 import Medical from './Components/Medical';
 import Shop from './Components/Shop';
+import FAQ from './Components/FAQ';
+import ProfileForm from './Components/ProfileForm';
+import Fevorite from './Components/Fevorite';
+import Cart from './Components/Cart';
+import Order from './Components/Order';
+import Work from './Components/Work';
 
 function App() {
   return (
@@ -34,6 +40,13 @@ function App() {
             </>
           }
         />
+
+          <Route path="/profileform" element={<ProfileForm />} />
+          <Route path="/fevorite" element={<Fevorite />} />
+          <Route path="/cart" element={<Cart />} />
+          <Route path="/order" element={<Order />} />
+          <Route path="/work" element={<Work />} />
+          <Route path="/FAQ" element={<FAQ />} />
           <Route path="/shop" element={<Shop />} />
         <Route path="/search" element={<Search />} />
       </Routes>

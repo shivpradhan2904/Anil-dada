@@ -1,16 +1,16 @@
-import React from "react";
+import React from 'react'
 import img2 from "../image/arrow.png";
-import { useNavigate } from "react-router-dom";
+import { useNavigate } from 'react-router-dom';
 
-function Shop() {
-  const navigate = useNavigate();
+function Fevorite() {
+    const navigate=useNavigate()
   return (
     <div>
       <div className="w-full min-h-10 bg-[#3AAFA9] text-center flex justify-between items-center">
         <button onClick={() => navigate("/home")}>
           <img className="w-9 m-2" src={img2} alt="" />
         </button>
-        <div className="py-2 text-white text-xl  font-medium">
+        <div className="py-3 text-white text-xl  font-medium">
           My Cart(Work LIst)
         </div>
         <div></div>
@@ -23,7 +23,7 @@ function Shop() {
         </button>
       </div>
     </div>
-  );
+  )
 }
 
-export default Shop;
+export default Fevorite

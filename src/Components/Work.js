@@ -1,9 +1,10 @@
-import React from "react";
+import React from 'react'
 import img2 from "../image/arrow.png";
-import { useNavigate } from "react-router-dom";
+import { useNavigate } from 'react-router-dom';
 
-function Shop() {
-  const navigate = useNavigate();
+function Work() {
+    const navigate=useNavigate()
+
   return (
     <div>
       <div className="w-full min-h-10 bg-[#3AAFA9] text-center flex justify-between items-center">
@@ -11,19 +12,20 @@ function Shop() {
           <img className="w-9 m-2" src={img2} alt="" />
         </button>
         <div className="py-2 text-white text-xl  font-medium">
-          My Cart(Work LIst)
+          Assigned Work
         </div>
         <div></div>
       </div>
 
       <div className="h-screen w-full flex flex-col justify-center items-center">
-        <div>Your Work list cart is empty!</div>
+        <div>You haven't make any order yet!</div>
+        <div className='text-sm text-gray-400'>Make Your First Order Now</div>
         <button className="bg-[#3AAFA9] rounded-lg p-2 mt-4">
           Add a work order Now
         </button>
       </div>
     </div>
-  );
+  )
 }
 
-export default Shop;
+export default Work

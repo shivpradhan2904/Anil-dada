@@ -9,7 +9,7 @@ function Search() {
   const navigate=useNavigate()
   return (
     <div>
-      <div className='w-full min-h-10 bg-blue-400 text-center flex justify-between items-center'>
+      <div className='w-full min-h-10 bg-[#3AAFA9] text-center flex justify-between items-center'>
         <button onClick={()=>navigate('/home')}><img className='w-9 m-2' src={img2} alt="" /></button>
         <div className='py-2 text-white text-xl  font-medium'>
           Search
@@ -32,10 +32,12 @@ function Search() {
             />
           </div>
       </div>
-
-      <div className='w-full flex justify-center p-20 text-3xl'>
+      <div className='w-full  flex justify-center items-center h-screen text-sm  md:text-3xl'>
+        <div className='mb-60  text-gray-600'>
         Search Any Items here
+        </div>
       </div>
+
     </div>
   )
 }
